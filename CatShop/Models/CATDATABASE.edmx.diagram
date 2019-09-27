@@ -14,6 +14,14 @@
         <AssociationConnector Association="CAT_SHOP1Model.CMBlog_Blog" ManuallyRouted="false" />
         <AssociationConnector Association="CAT_SHOP1Model.Meo_LoaiMeo" ManuallyRouted="false" />
         <AssociationConnector Association="CAT_SHOP1Model.Meo_PerSon" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="CAT_SHOP1Model.BestCat" Width="1.5" PointX="5.25" PointY="10.375" />
+        <EntityTypeShape EntityType="CAT_SHOP1Model.LastNew" Width="1.5" PointX="5.25" PointY="13" />
+        <EntityTypeShape EntityType="CAT_SHOP1Model.MaxMonneyCat" Width="1.5" PointX="5.25" PointY="15.625" />
+        <EntityTypeShape EntityType="CAT_SHOP1Model.SellerCat" Width="1.5" PointX="5.25" PointY="7.625" />
+        <AssociationConnector Association="CAT_SHOP1Model.BestCat_Meo" />
+        <AssociationConnector Association="CAT_SHOP1Model.LastNew_Meo" />
+        <AssociationConnector Association="CAT_SHOP1Model.MaxMoneyCat_Meo" />
+        <AssociationConnector Association="CAT_SHOP1Model.SellerCat_Meo" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

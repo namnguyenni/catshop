@@ -14,6 +14,14 @@ namespace CatShop.Models
     
     public partial class Meo
     {
+        public Meo()
+        {
+            this.BestCats = new HashSet<BestCat>();
+            this.LastNews = new HashSet<LastNew>();
+            this.MaxMonneyCats = new HashSet<MaxMonneyCat>();
+            this.SellerCats = new HashSet<SellerCat>();
+        }
+    
         public string Id { get; set; }
         public string MauSac { get; set; }
         public string DacDiemNoiBat { get; set; }
@@ -26,5 +34,9 @@ namespace CatShop.Models
     
         public virtual LoaiMeo LoaiMeo { get; set; }
         public virtual Person Person { get; set; }
+        public virtual ICollection<BestCat> BestCats { get; set; }
+        public virtual ICollection<LastNew> LastNews { get; set; }
+        public virtual ICollection<MaxMonneyCat> MaxMonneyCats { get; set; }
+        public virtual ICollection<SellerCat> SellerCats { get; set; }
     }
 }

@@ -16,7 +16,7 @@ namespace CatShop.Controllers
         public ActionResult Index()
         {
             CAT_SHOP1Entities data = new CAT_SHOP1Entities();
-
+            MultiCustomModel multicus = new MultiCustomModel();
             var cattable = data.Meos;
 
             List<CatCustomModel> listcats = new List<CatCustomModel>();
@@ -31,13 +31,12 @@ namespace CatShop.Controllers
                 });
 
                 
-                if (listcats.Count == 8)
-                {
-                    break;
-                }
+                
             }
-            MultiCustomModel multicus = new MultiCustomModel();
-            multicus.ModelCAT.AddRange(listcats);
+            
+            multicus.ModelCAT_Trending.AddRange(listcats);
+
+            
 
 
             return View(multicus);

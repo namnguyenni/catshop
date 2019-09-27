@@ -117,6 +117,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BestCat.cs">
+      <DependentUpon>CATDATABASE.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Blog.cs">
       <DependentUpon>CATDATABASE.tt</DependentUpon>
     </Compile>
@@ -142,7 +145,13 @@
     <Compile Include="Models\C_Login.cs">
       <DependentUpon>CATDATABASE.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\LastNew.cs">
+      <DependentUpon>CATDATABASE.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\LoaiMeo.cs">
+      <DependentUpon>CATDATABASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MaxMonneyCat.cs">
       <DependentUpon>CATDATABASE.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Meo.cs">
@@ -152,68 +161,71 @@
     <Compile Include="Models\Person.cs">
       <DependentUpon>CATDATABASE.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\SellerCat.cs">
+      <DependentUpon>CATDATABASE.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Content Include="Anh meo\Meo_anh_long_dai\images %281%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\images %282%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\images.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống %281%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống %282%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống %283%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống %284%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống %285%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống %286%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_dai\tải xuống.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\images %281%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\images %282%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\images %283%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\images %284%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\images.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\tải xuống %281%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\tải xuống %282%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\tải xuống %283%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\tải xuống %287%29.jpg" />
-    <Content Include="Anh meo\Meo_anh_long_ngan\tải xuống.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %281%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %282%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %283%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %284%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %285%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %286%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %287%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống %288%29.jpg" />
-    <Content Include="Anh meo\Meo_ba_tu\tải xuống.jpg" />
-    <Content Include="Anh meo\Meo_muop\1.jpg" />
-    <Content Include="Anh meo\Meo_muop\2.jpg" />
-    <Content Include="Anh meo\Meo_muop\3.jpg" />
-    <Content Include="Anh meo\Meo_muop\4.jpg" />
-    <Content Include="Anh meo\Meo_muop\images %281%29.jpg" />
-    <Content Include="Anh meo\Meo_muop\images %282%29.jpg" />
-    <Content Include="Anh meo\Meo_muop\images %283%29.jpg" />
-    <Content Include="Anh meo\Meo_muop\images.jpg" />
-    <Content Include="Anh meo\Meo_muop\tải xuống.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %281%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %282%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %283%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %284%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %285%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %286%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %287%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống %289%29.jpg" />
-    <Content Include="Anh meo\Meo_tai_cup\tải xuống.jpg" />
-    <Content Include="Anh meo\Meo_vang\images %281%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\images %282%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\images %283%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\images %284%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\images.jpg" />
-    <Content Include="Anh meo\Meo_vang\tải xuống %281%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\tải xuống %282%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\tải xuống %283%29.jpg" />
-    <Content Include="Anh meo\Meo_vang\tải xuống.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\1.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\2.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\3.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\4.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\5.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\6..jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\7.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\8.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\9.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_dai\10.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\11.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\12.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\13.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\14.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\15.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\16.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\17.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\18.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\19.jpg" />
+    <Content Include="Anh meo\Meo_anh_long_ngan\20.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\21.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\22.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\23.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\24.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\25.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\26.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\27.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\28.jpg" />
+    <Content Include="Anh meo\Meo_ba_tu\29.jpg" />
+    <Content Include="Anh meo\Meo_muop\30.jpg" />
+    <Content Include="Anh meo\Meo_muop\31.jpg" />
+    <Content Include="Anh meo\Meo_muop\32.jpg" />
+    <Content Include="Anh meo\Meo_muop\33.jpg" />
+    <Content Include="Anh meo\Meo_muop\34.jpg" />
+    <Content Include="Anh meo\Meo_muop\35.jpg" />
+    <Content Include="Anh meo\Meo_muop\36.jpg" />
+    <Content Include="Anh meo\Meo_muop\37.jpg" />
+    <Content Include="Anh meo\Meo_muop\38.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\39.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\40.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\41.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\42.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\43.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\44.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\45.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\46.jpg" />
+    <Content Include="Anh meo\Meo_tai_cup\47.jpg" />
+    <Content Include="Anh meo\Meo_vang\48.jpg" />
+    <Content Include="Anh meo\Meo_vang\49.jpg" />
+    <Content Include="Anh meo\Meo_vang\50.jpg" />
+    <Content Include="Anh meo\Meo_vang\51.jpg" />
+    <Content Include="Anh meo\Meo_vang\52.jpg" />
+    <Content Include="Anh meo\Meo_vang\53.jpg" />
+    <Content Include="Anh meo\Meo_vang\54.jpg" />
+    <Content Include="Anh meo\Meo_vang\55.jpg" />
+    <Content Include="Anh meo\Meo_vang\56.jpg" />
     <Content Include="Content\Aroma Shop-doc\css\font-awesome.min.css" />
     <Content Include="Content\Aroma Shop-doc\css\main.css" />
     <Content Include="Content\Aroma Shop-doc\css\normalize.min.css" />

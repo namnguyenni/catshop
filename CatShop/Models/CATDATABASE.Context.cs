@@ -31,5 +31,9 @@ namespace CatShop.Models
         public DbSet<LoaiMeo> LoaiMeos { get; set; }
         public DbSet<Meo> Meos { get; set; }
         public DbSet<Person> People { get; set; }
+        public DbSet<BestCat> BestCats { get; set; }
+        public DbSet<LastNew> LastNews { get; set; }
+        public DbSet<MaxMonneyCat> MaxMonneyCats { get; set; }
+        public DbSet<SellerCat> SellerCats { get; set; }
     }
 }

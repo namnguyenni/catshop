@@ -65,5 +65,43 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="BestCats">
+      <EntityTypeMapping TypeName="CAT_SHOP1Model.BestCat">
+        <MappingFragment StoreEntitySet="BestCat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Check_cat" ColumnName="Check_cat" />
+          <ScalarProperty Name="Id1" ColumnName="Id1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LastNews">
+      <EntityTypeMapping TypeName="CAT_SHOP1Model.LastNew">
+        <MappingFragment StoreEntitySet="LastNew">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Check_cat" ColumnName="Check_cat" />
+          <ScalarProperty Name="News" ColumnName="News" />
+          <ScalarProperty Name="Id1" ColumnName="Id1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaxMonneyCats">
+      <EntityTypeMapping TypeName="CAT_SHOP1Model.MaxMonneyCat">
+        <MappingFragment StoreEntitySet="MaxMonneyCat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Check_cat" ColumnName="Check_cat" />
+          <ScalarProperty Name="Id1" ColumnName="Id1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SellerCats">
+      <EntityTypeMapping TypeName="CAT_SHOP1Model.SellerCat">
+        <MappingFragment StoreEntitySet="SellerCat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Check_cat" ColumnName="Check_cat" />
+          <ScalarProperty Name="TiLeGiam" ColumnName="TiLeGiam" />
+          <ScalarProperty Name="Id1" ColumnName="Id1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>
