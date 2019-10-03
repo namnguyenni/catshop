@@ -847,31 +847,31 @@
     <Content Include="Content\vendors\themify-icons\Themify IconFonts 5-23-2014.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialTrending.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialTrending.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialBestSeller.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialBestSeller.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialLastnews.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialLastnews.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialHeader.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialHeader.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialBanner.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialBanner.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialCarouselStart.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialCarouselStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialBlogSection.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialBlogSection.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialFooter.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialFooter.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Partial\_PartialSubcribe.cshtml" />
+    <Content Include="Views\Partial\HomePartial\_PartialSubcribe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Shop.cshtml" />
@@ -899,6 +899,14 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partial\ShopPartial\_PartialBanner.cshtml" />
+    <Content Include="Views\Partial\ShopPartial\_PartialProduct.cshtml" />
+    <Content Include="Views\Partial\ShopPartial\_PartialSectionStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\_LayoutShopCatagory.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
