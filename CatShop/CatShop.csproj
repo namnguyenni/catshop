@@ -120,6 +120,7 @@
     <Compile Include="Models\BestCat.cs">
       <DependentUpon>CATDATABASE.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\BestCatCustom.cs" />
     <Compile Include="Models\Blog.cs">
       <DependentUpon>CATDATABASE.tt</DependentUpon>
     </Compile>
@@ -280,6 +281,7 @@
     <Content Include="Content\Aroma Shop-doc\syntax-highlighter\styles\shThemeMDUltra.css" />
     <Content Include="Content\Aroma Shop-doc\syntax-highlighter\styles\shThemeMidnight.css" />
     <Content Include="Content\Aroma Shop-doc\syntax-highlighter\styles\shThemeRDark.css" />
+    <Content Include="Content\css\defaultSize.css" />
     <Content Include="Content\css\main.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\img\blog\add.jpg" />

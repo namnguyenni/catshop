@@ -56,3 +56,4 @@ D:\github\catshop\CatShop\bin\System.Web.WebPages.Deployment.xml
 D:\github\catshop\CatShop\bin\System.Web.WebPages.Razor.xml
 D:\github\catshop\CatShop\obj\Debug\CatShop.dll
 D:\github\catshop\CatShop\obj\Debug\CatShop.pdb
+D:\github\catshop\CatShop\obj\Debug\CatShop.csprojResolveAssemblyReference.cache
